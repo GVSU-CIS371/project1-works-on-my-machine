@@ -13,6 +13,24 @@ header {
     padding: 25px 150px;
 }
 
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #f1f1f1;
+}
+
 main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -20,6 +38,7 @@ main {
     margin: 0 auto;
     gap: 20px;
     grid-auto-rows: 35em;
+    padding: 0 0 150px 0;
 }
 
 .store-item {
@@ -61,4 +80,10 @@ main {
 .store-item > span:last-of-type {
     flex-basis: calc(50% - 15px);
     text-align: right;
+}
+
+footer {
+    background-color: #1e1e1e;
+    padding: 25px 150px;
+    text-align: center;
 }
