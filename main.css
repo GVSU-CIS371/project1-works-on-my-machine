@@ -4,10 +4,56 @@ html {
 
   margin: 0px;
   padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 150px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: min(100%, 1100px);
+    margin: 0 auto;
+    gap: 20px;
+}
+.store-item {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 27em;
+    justify-content: center;
+}
+
+.store-item img {
+    flex-basis: 100%;
+    height: 50%;
+    background-color: #121212;
+    overflow-anchor: center;
+}
+
+.store-item p {
+    flex-basis: 100%;
+    padding: 0 15px;
+}
+
+.store-item span {
+    flex-basis: 29%;
+    color: #f1f1f1;
+    margin-bottom: 10px;
 }
 
 /*Did a start on the store item. The image needs to be reworked to center align and so does the span tags. - Drew*/
-
+/* 
 main {
   display: grid;
   max-width: 100vw;
@@ -37,4 +83,4 @@ main {
 
 .store-item span{
   padding: 10px;
-}
+} */
