@@ -1,89 +1,91 @@
+/* Test comment */
+
 body,
 html {
-    margin: 0px;
-    padding: 0px;
-    background-color: #121212;
-    color: white;
+	margin: 0px;
+	padding: 0px;
+	background-color: #121212;
+	color: white;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 150px;
 }
 
 nav ul {
-    display: flex;
-    gap: 20px;
+	display: flex;
+	gap: 20px;
 }
 
 nav ul li {
-    list-style: none;
+	list-style: none;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 nav ul li a:hover {
-    color: #f1f1f1;
+	color: #f1f1f1;
 }
 
 main {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    width: min(100%, 1200px);
-    margin: 0 auto;
-    gap: 20px;
-    grid-auto-rows: 35em;
-    padding: 0 0 150px 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: min(100%, 1200px);
+	margin: 0 auto;
+	gap: 20px;
+	grid-auto-rows: 35em;
+	padding: 0 0 150px 0;
 }
 
 .store-item {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #1e1e1e;
-    border-radius: 10px;
-    overflow: hidden;
-    justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #1e1e1e;
+	border-radius: 10px;
+	overflow: hidden;
+	justify-content: center;
 }
 
 .store-item img {
-    flex-basis: 100%;
-    height: 50%;
-    background-color: #121212;
-    overflow-anchor: center;
+	flex-basis: 100%;
+	height: 50%;
+	background-color: #121212;
+	overflow-anchor: center;
 }
 
 .store-item p {
-    flex-basis: 100%;
-    padding: 0 15px;
+	flex-basis: 100%;
+	padding: 0 15px;
 }
 
 .store-item span {
-    display: inline-block;
-    color: #f1f1f1;
-    margin-bottom: 10px;
+	display: inline-block;
+	color: #f1f1f1;
+	margin-bottom: 10px;
 }
 
 .store-item > span:first-of-type,
 .store-item > span:nth-of-type(2) {
-    flex-basis: calc(25% - 15px);
+	flex-basis: calc(25% - 15px);
 }
 
 .store-item > span:nth-of-type(2) {
-    text-align: right;
+	text-align: right;
 }
 
 .store-item > span:last-of-type {
-    flex-basis: calc(50% - 15px);
-    text-align: right;
+	flex-basis: calc(50% - 15px);
+	text-align: right;
 }
 
 footer {
-    background-color: #1e1e1e;
-    padding: 25px 150px;
-    text-align: center;
+	background-color: #1e1e1e;
+	padding: 25px 150px;
+	text-align: center;
 }
